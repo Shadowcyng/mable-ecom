@@ -1,0 +1,6 @@
+[submodule "EcomUI"]
+	path = EcomUI
+	url = https://github.com/Shadowcyng/EcomUI
+[submodule "EcomAPI"]
+	path = EcomAPI
+	url = https://github.com/Shadowcyng/EcomAPI
