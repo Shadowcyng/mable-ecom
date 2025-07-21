@@ -1,0 +1,57 @@
+# -------------------
+# Global Ignores
+# -------------------
+node_modules/
+.env
+.DS_Store
+*.log
+
+# -------------------
+# Frontend (Remix) - ecommerce/
+# -------------------
+ecommerce/node_modules/
+ecommerce/.cache/
+ecommerce/build/
+ecommerce/.env
+ecommerce/public/build/
+
+# Remix build artifacts
+ecommerce/.next/
+ecommerce/.turbo/
+ecommerce/.vercel/
+ecommerce/.netlify/
+
+# Editor configs
+ecommerce/.vscode/
+ecommerce/.idea/
+
+# -------------------
+# Backend (Go) - api/
+# -------------------
+api/.env
+api/vendor/
+
+# Go binaries
+api/*.exe
+api/*.dll
+api/*.so
+api/*.dylib
+api/*.test
+
+# Go coverage and test artifacts
+api/*.out
+api/coverage.*
+api/*.coverprofile
+api/profile.cov
+
+# Go workspace files
+api/go.work
+api/go.work.sum
+
+# -------------------
+# OS-specific
+# -------------------
+Thumbs.db
+ehthumbs.db
+*.swp
+
